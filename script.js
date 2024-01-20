@@ -41,5 +41,5 @@ function page1() {
     map.setView([-32, 21], 6); // reset view
 }
 function page2() {
-    window.location.href = './pages/data.html'; 
+    window.location.href = 'data.html'; 
 }
