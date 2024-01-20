@@ -17,7 +17,7 @@ var nthuMarker = L.marker([-32, 21]).bindPopup('NTHU'); //緯, 經
 var markers = L.layerGroup([nthuMarker]);
 
 // GeoJSON data
-var geojson = new L.GeoJSON.AJAX("/data/bioscape_domain_20220201.geojson");
+var geojson = new L.GeoJSON.AJAX("./data/bioscape_domain_20220201.geojson");
 
 // objects for layer control
 var baseLayers = {
